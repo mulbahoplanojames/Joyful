@@ -1,0 +1,127 @@
+:root {
+  --primary-Clr: #005AB3;
+  --secondary-Clr:#fff ;
+}
+
+#header {
+  margin-bottom: 15vh;
+  height: 0px;
+}
+
+#about-main {
+  position: relative;
+  padding-bottom: 5%;
+}
+
+.about-main-container {
+  height: 40vh;
+  background: url(home-slider-1.jpg);
+}
+
+.about-main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.about-main-title {
+  font-size: 40px;
+  color: #fff ;
+  font-size: 60px;
+  padding-bottom: 3%;
+  text-transform: uppercase;
+}
+
+.about-main-decription {
+  font-size: 30px;
+  color: #fff;
+}
+
+/* The below codes are for the abour Sada section  */
+
+.about-sada-container {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.about-sada-content {
+  width: 45%;
+  height: 80vh;
+}
+
+.about-sada-title1 {
+  font-size: 40px;
+  padding-bottom: 3%;
+  text-transform: uppercase;
+  color: var(--primary-Clr);
+}
+
+.about-sada-description1 {
+  font-size: 23px;
+  color: var(--primary-Clr);
+  opacity: 0.7;
+}
+
+.about-content-title {
+  font-size: 30px;
+  padding-bottom: 3% 0px;
+}
+
+.about-content-decription {
+  font-size: 25px;
+  padding-bottom: 4%;
+}
+
+/* The below codes are for the abour Sada section  */
+
+#our-team {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.our-team-title {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: var(--primary-Clr);
+  padding-bottom: 4%;
+}
+
+.our-team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.our-team-content {
+  width: 20%;
+  height: 50vh;
+  border: 2px solid var(--primary-Clr);
+  background: var(--primary-Clr);
+}
+
+.our-team-content-head {
+  height: 30vh;
+}
+
+.our-team-content-title {
+  text-transform: capitalize;
+  color: var(--secondary-Clr);
+  padding: 4% 0px;
+  font-size: 32px;
+}
+
+.our-team-content-description {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--secondary-Clr);
+  padding-bottom: 5%;
+}

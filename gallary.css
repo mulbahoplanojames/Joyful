@@ -1,0 +1,15 @@
+#gallery {
+  padding-bottom: 5%;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-content {
+  width: 23%;
+  height: 35vh;
+}
