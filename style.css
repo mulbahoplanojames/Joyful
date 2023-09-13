@@ -444,3 +444,80 @@ footer {
 #submit:hover {
   opacity: .7;
 }
+
+/********************** 
+Media Queries for responsive design 
+ *********************/
+
+ @media(max-width: 950px) {
+  .content-title {
+    font-size: 35px;
+    padding-bottom: 6%;
+  }
+  .content-decription {
+    font-size: 22px;
+    padding-bottom: 8%;
+  }
+  .content-btn {
+    padding: 7px 12px;
+  }
+  .img {
+    height: 60vh;
+  }
+  /* about section  */
+  #about {
+    padding-top: 35%;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-content {
+    width: 100%;
+  }
+  /* about sub section  */
+  .about-sub-container {
+    flex-direction: column;
+    margin: 15% 0px;
+  }
+  .about-sub-content {
+    width: 100%;
+    text-align: center;
+  }
+  .about-sub-decription {
+    font-size: 20px;
+  }
+  /* Our causes section  */
+  .causes-container {
+    flex-direction: column;
+    margin: 0px 0px 10% 0px;
+  }
+  .causes-content {
+    width: 98%;
+  }
+  .content-body-title {
+    font-size: 30px;
+  }
+  /* footer section  */
+  footer {
+    height: fit-content;
+  }
+  .footer-container {
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 8%;
+  }
+  .footer-content {
+    width: 100%;
+    margin-bottom: 6% 0px 18% 0px;
+    border-top: 3px solid #fff;
+  }
+  .input {
+    height: 7vh;
+  }
+  ::placeholder {
+    color: #fff;
+  }
+  #submit {
+    margin-left: 49%;
+  }
+ }
