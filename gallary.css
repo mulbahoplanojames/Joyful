@@ -13,3 +13,15 @@
   width: 23%;
   height: 35vh;
 }
+
+/********************** 
+Media Queries for responsive design 
+ *********************/
+ @media (max-width: 980px) {
+  .gallery-container {
+    margin-top: 8%;
+  }
+  .gallery-content {
+    width: 100%;
+  }
+ }
