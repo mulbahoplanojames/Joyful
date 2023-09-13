@@ -103,3 +103,33 @@
 .contact-map {
   height: 90vh;
 }
+
+/********************** 
+Media Queries for responsive design 
+ *********************/
+ @media (max-width: 950px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-content {
+    width: 100%;
+  }
+  .input1 {
+    width: 100%;
+    border: 2px solid var(--primary-Clr);
+  }
+  ::placeholder {
+    color: #000;
+  }
+  .input12 {
+    margin-left: 0px;
+    margin-bottom: 5%;
+  }
+  #message1 {
+    border: 2px solid var(--primary-Clr);
+    width: 100%;
+  }
+  .submit1 {
+    margin-left: 40%;
+  }
+ }
