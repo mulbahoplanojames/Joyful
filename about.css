@@ -125,3 +125,43 @@
   color: var(--secondary-Clr);
   padding-bottom: 5%;
 }
+
+/********************** 
+Media Queries for responsive design 
+ *********************/
+ @media (max-width: 950px) {
+  #about-sada {
+    margin-top: 8%;
+  }
+  .about-main-container {
+    margin-top: 64%;
+  }
+  .about-main-title {
+    font-size: 40px;
+    padding-bottom: 4%;
+  }
+  .about-main-decription {
+    font-size: 21px;
+  }
+  .about-sada-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .about-sada-content {
+    width: 100%;
+  }
+  .about-sada-content-two {
+    height: fit-content;
+  }
+  /* Our team section  */
+  #our-team {
+    margin-top: 10%; 
+  }
+  .our-team-container {
+    flex-direction: column;
+  }
+  .our-team-content {
+    width: 100%;
+  }
+ }
+ 
