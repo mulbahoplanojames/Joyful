@@ -27,7 +27,7 @@
 }
 
 .about-main-title {
-  font-size: 40px;
+  font-size: 19px;
   color: #fff ;
   font-size: 60px;
   padding-bottom: 3%;
@@ -35,7 +35,7 @@
 }
 
 .about-main-decription {
-  font-size: 30px;
+  font-size: 17px;
   color: #fff;
 }
 
@@ -56,29 +56,50 @@
 }
 
 .about-sada-title1 {
-  font-size: 40px;
+  font-size: 28px;
   padding-bottom: 3%;
   text-transform: uppercase;
   color: var(--primary-Clr);
 }
 
 .about-sada-description1 {
-  font-size: 23px;
+  font-size: 17px;
   color: var(--primary-Clr);
   opacity: 0.7;
 }
+/* The below codes are for the about section  */
+
+.about-content-image {
+  width: 38%;
+  height: 12vh;
+  /* background: yellow; */
+  margin: 1% auto;
+}
 
 .about-content-title {
-  font-size: 30px;
-  padding-bottom: 3% 0px;
+  color: var(--secondary-Clr);
+  text-transform: uppercase;
+  padding-top: 4%;
+  font-size: 23px;
 }
 
 .about-content-decription {
-  font-size: 25px;
-  padding-bottom: 4%;
+  color: var(--secondary-Clr);
+  font-size: 17px;
+  padding: 1.5% 0px 3% 0px;
+  text-align: start;
 }
 
-/* The below codes are for the abour Sada section  */
+.about-content-btn {
+  padding: 10px 30px;
+  font-size: 18px;
+  background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+  color: var(--secondary-Clr);
+  border: 2px solid transparent;
+}
+
+
+/* The below codes are for the our team section  */
 
 #our-team {
   margin: auto;
@@ -87,7 +108,7 @@
 }
 
 .our-team-title {
-  font-size: 50px;
+  font-size: 30px;
   text-transform: uppercase;
   color: var(--primary-Clr);
   padding-bottom: 4%;
@@ -116,11 +137,11 @@
   text-transform: capitalize;
   color: var(--secondary-Clr);
   padding: 4% 0px;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 .our-team-content-description {
-  font-size: 22px;
+  font-size: 17px;
   text-transform: uppercase;
   color: var(--secondary-Clr);
   padding-bottom: 5%;
@@ -134,7 +155,7 @@ Media Queries for responsive design
     margin-top: 8%;
   }
   .about-main-container {
-    margin-top: 64%;
+    margin-top: 39.4%;
   }
   .about-main-title {
     font-size: 40px;
