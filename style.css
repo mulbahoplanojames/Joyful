@@ -30,7 +30,7 @@ body {
 .phonMail ul li {
   display: inline-block;
   padding: 2px 20px;
- font-size: 20px;
+ font-size: 17px;
 }
 
 .phonMail ul li a {
@@ -45,7 +45,7 @@ body {
 .bi {
   padding-left: 20px;
   color: var(--secondary-Clr);
-  font-size: 19px;
+  font-size: 17px;
 }
 
 
@@ -61,7 +61,7 @@ nav {
 .logo a,
 .logo h1 {
   text-decoration: none;
-  font-size: 50px;
+  font-size: 35px;
   text-transform: uppercase;
   color: var(--secondary-Clr);
 }
@@ -74,7 +74,7 @@ nav {
 .nav-links ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 23px;
+  font-size:17px;
   text-transform: uppercase;
   color: var(--secondary-Clr);
 }
@@ -108,7 +108,7 @@ nav {
 }
 
 .content-title {
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 700;
   padding-bottom: 1%;
   text-transform: uppercase;
@@ -116,15 +116,15 @@ nav {
 }
 
 .content-decription {
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--secondary-Clr);
 }
 
 .content-btn {
-  padding: 12px 30px;
-  font-size: 25px;
+  padding: 6px 30px;
+  font-size: 20px;
   text-transform: uppercase;
   margin-top: 4%;
   background: var(--secondary-Clr);
@@ -152,7 +152,7 @@ The below cade are for the about section
 
 .about-container {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   align-items: center;
   justify-content: center;
 }
@@ -161,13 +161,13 @@ The below cade are for the about section
   width: 22% ;
   height: 55vh;
   background: var(--primary-Clr);
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
 .about-content-image {
-  width: 45%;
-  height: 15vh;
+  width: 38%;
+  height: 12vh;
   /* background: yellow; */
   margin: 1% auto;
 }
@@ -175,19 +175,20 @@ The below cade are for the about section
 .about-content-title {
   color: var(--secondary-Clr);
   text-transform: uppercase;
-  padding-top: 2%;
+  padding-top: 4%;
+  font-size: 23px;
 }
 
 .about-content-decription {
   color: var(--secondary-Clr);
-  font-size: 20px;
+  font-size: 17px;
   padding: 1.5% 0px 3% 0px;
   text-align: start;
 }
 
 .about-content-btn {
   padding: 10px 30px;
-  font-size: 22px;
+  font-size: 18px;
   background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
   color: var(--secondary-Clr);
   border: 2px solid transparent;
@@ -239,7 +240,7 @@ The below cade are for the about sub section
 }
 
 .about-sub-decription {
-  font-size: 30px;
+  font-size: 18px;
   color: var(--secondary-Clr);
   display: none;
   transition: 1s ease-in;
@@ -271,7 +272,7 @@ The below cade are for the about sub section
 }
 
 .sub-footer-title {
-  font-size: 40px;
+  font-size: 25px;
   padding: 1% 0px;
   text-transform: uppercase;
   color: var(--secondary-Clr);
@@ -279,7 +280,7 @@ The below cade are for the about sub section
 
 
 .sub-footer-description {
-  font-size: 25px;
+  font-size:18px;
   color: var(--secondary-Clr);
   text-transform: uppercase;
 }
@@ -295,7 +296,7 @@ The below cade are for the about sub section
 
 
 .causes-title {
-  font-size: 50px;
+  font-size: 40px;
   color: var(--primary-Clr);
   text-transform: uppercase;
   padding-bottom: 4%;
@@ -334,15 +335,19 @@ The below cade are for the about sub section
   color: var(--primary-Clr);
 }
 
+.content-body-title {
+  font-size: 22px;
+}
+
 .content-body-description {
   text-align: start;
-  font-size: 19px;
-  padding: 3% 0px;
+  font-size: 14px;
+  padding: 2% 0px;
 }
 
 .caeses-btn {
-  padding: 8px 25px;
-  font-size: 25px;
+  padding: 5px 20px;
+  font-size: 20px;
   background: var(--primary-Clr);
   color: var(--secondary-Clr);
   border: 2px solid transparent;
@@ -371,8 +376,8 @@ The below cade are for the about sub section
 }
 
 .sponsor-content {
-  width: 15%;
-  height: 20vh;
+  width: 13%;
+  height: 18vh;
   background: transparent;
 }
 
@@ -406,10 +411,11 @@ footer {
   color: var(--secondary-Clr);
   padding: 1.6% 0px 3% 0px;
   text-transform: uppercase;
+  font-size: 22px;
 }
 
 .footer-content-decription {
-  font-size: 21px;
+  font-size: 15px;
   color: var(--secondary-Clr);
 }
 
@@ -435,7 +441,7 @@ footer {
   margin-left: 60%;
   padding: 6px 20px;
   background: blue;
-  font-size: 21px;
+  font-size: 16px;
   text-transform: uppercase;
   border: 2px solid var(--secondary-Clr);
   color: var(--secondary-Clr);
@@ -451,11 +457,11 @@ Media Queries for responsive design
 
  @media(max-width: 950px) {
   .content-title {
-    font-size: 35px;
+    font-size: 25px;
     padding-bottom: 6%;
   }
   .content-decription {
-    font-size: 22px;
+    font-size: 18px;
     padding-bottom: 8%;
   }
   .content-btn {
@@ -473,6 +479,13 @@ Media Queries for responsive design
   }
   .about-content {
     width: 100%;
+    height: 50vh;
+  }
+  .about-content-title {
+    font-size: 28px;
+  }
+  .about-content-decription {
+    font-size: 23px;
   }
   /* about sub section  */
   .about-sub-container {
@@ -495,7 +508,10 @@ Media Queries for responsive design
     width: 98%;
   }
   .content-body-title {
-    font-size: 30px;
+    font-size: 33px;
+  }
+  .content-body-description {
+    font-size: 19px;
   }
   /* footer section  */
   footer {
@@ -510,6 +526,12 @@ Media Queries for responsive design
     width: 100%;
     margin-bottom: 6% 0px 18% 0px;
     border-top: 3px solid #fff;
+  }
+  .footer-content-title  {
+    font-size: 30px;
+  }
+  .footer-content-decription  {
+    font-size: 18px;
   }
   .input {
     height: 7vh;
